@@ -3,7 +3,7 @@ Module compteur - Fonctions pour compter les occurrences de caractères.
 """
 
 
-def compter_caractere(texte, caractere):
+def compter_caractere(texte: str, caractere: str) -> int:
     """
     Compte le nombre d'occurrences d'un caractère dans un texte.
 

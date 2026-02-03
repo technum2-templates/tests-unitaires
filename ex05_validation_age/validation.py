@@ -3,7 +3,7 @@ Module validation - Fonctions pour valider des données.
 """
 
 
-def valider_age(age):
+def valider_age(age: object) -> bool:
     """
     Vérifie si un âge est valide pour une inscription.
 

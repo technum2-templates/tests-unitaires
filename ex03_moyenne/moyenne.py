@@ -3,7 +3,7 @@ Module moyenne - Fonctions pour calculer la moyenne d'une liste.
 """
 
 
-def moyenne(liste):
+def moyenne(liste: list[int | float]) -> float:
     """
     Calcule la moyenne arithmétique des éléments d'une liste.
 

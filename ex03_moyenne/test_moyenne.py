@@ -35,5 +35,5 @@ class TestMoyenne(unittest.TestCase):
     pass  # Supprimez ce 'pass' quand vous écrivez vos tests
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

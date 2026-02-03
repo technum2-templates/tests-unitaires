@@ -3,7 +3,7 @@ Module parite - Fonctions pour vérifier la parité d'un nombre.
 """
 
 
-def est_pair(nombre):
+def est_pair(nombre: int) -> bool:
     """
     Vérifie si un nombre est pair.
 

@@ -3,7 +3,7 @@ Module somme - Fonctions pour calculer la somme d'une liste.
 """
 
 
-def somme_liste(liste):
+def somme_liste(liste: list[int|float]) -> int|float:
     """
     Calcule la somme des éléments d'une liste.
 
