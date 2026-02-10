@@ -41,8 +41,6 @@ class TestValidation(unittest.TestCase):
     #           valider_age("18") → TypeError
     #           valider_age(18.5) → TypeError
     #           Utilisez : with self.assertRaises(TypeError):
-    #
-    # Challenge : Combien de tests minimum pour couvrir tous les cas ?
 
     pass  # Supprimez ce 'pass' quand vous écrivez vos tests
 

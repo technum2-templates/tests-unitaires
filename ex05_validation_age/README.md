@@ -29,15 +29,6 @@ Testez la fonction `valider_age(age)` qui vérifie si un âge est valide pour un
 - [ ] Test type incorrect : `"18"`, `18.5` → `TypeError`
 - [ ] Tous les tests passent ✅
 
-## Challenge
-
-**Combien de tests minimum faut-il pour couvrir tous les cas ?**
-
-Pensez aux :
-- Cas nominaux (âge valide)
-- Boundaries (limites exactes : 17/18 et 120/121)
-- Cas d'erreur (type invalide)
-
 ## Exemple de test
 
 ```python

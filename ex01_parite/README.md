@@ -18,7 +18,7 @@
 
 - [ ] Au moins 3 tests (nombre pair, nombre impair, zéro)
 - [ ] Structure AAA clairement identifiable
-- [ ] Utilisation de `assertTrue`/`assertFalse` ou `assertEqual`
+- [ ] Utilisation de `assertTrue` ou `assertFalse`
 - [ ] Tous les tests passent ✅
 
 ## Indices
