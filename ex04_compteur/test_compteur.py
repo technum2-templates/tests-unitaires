@@ -22,14 +22,14 @@ class TestCompteur(unittest.TestCase):
     # - Assert : vérifier le résultat
     #
     # Indice 1: Testez avec un caractère présent plusieurs fois
-    #           compter_caractere("hello", "l") → attend 2
+    #           compter_caractere("hello", "l") --> attend 2
     # Indice 2: Testez avec un caractère absent
-    #           compter_caractere("hello", "z") → attend 0
+    #           compter_caractere("hello", "z") --> attend 0
     # Indice 3: Testez avec une chaîne vide
-    #           compter_caractere("", "a") → attend 0
+    #           compter_caractere("", "a") --> attend 0
     # Indice 4: Testez la sensibilité à la casse
-    #           compter_caractere("Hello", "h") → attend 0 (car h ≠ H)
-    #           compter_caractere("Hello", "H") → attend 1
+    #           compter_caractere("Hello", "h") --> attend 0 (car h ≠ H)
+    #           compter_caractere("Hello", "H") --> attend 1
 
     pass  # Supprimez ce 'pass' quand vous écrivez vos tests
 

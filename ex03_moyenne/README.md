@@ -18,10 +18,10 @@ Testez la fonction `moyenne()` qui calcule la moyenne arithmétique d'une liste.
 
 ## Critères de réussite
 
-- [ ] Test cas nominal : `[10, 20, 30]` → attend `20.0`
+- [ ] Test cas nominal : `[10, 20, 30]` --> attend `20.0`
 - [ ] Test liste vide : doit lever `ValueError`
 - [ ] Test avec nombres flottants : `[1.5, 2.5, 3.0]`
-- [ ] Test avec un seul élément : `[42]` → attend `42.0`
+- [ ] Test avec un seul élément : `[42]` --> attend `42.0`
 - [ ] Tous les tests passent ✅
 
 ## Points d'attention

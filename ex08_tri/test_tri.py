@@ -21,12 +21,12 @@ class TestTri(unittest.TestCase):
     # - Act : appeler la fonction à tester
     # - Assert : vérifier le résultat
     #
-    # Indice 1: Testez avec une liste normale [3, 1, 2] → [1, 2, 3]
-    # Indice 2: Testez avec une liste vide [] → []
-    # Indice 3: Testez avec un seul élément [42] → [42]
-    # Indice 4: Testez avec doublons [2, 1, 2, 3] → [1, 2, 2, 3]
-    # Indice 5: Testez déjà triée [1, 2, 3] → [1, 2, 3]
-    # Indice 6: Testez triée inversée [3, 2, 1] → [1, 2, 3]
+    # Indice 1: Testez avec une liste normale [3, 1, 2] --> [1, 2, 3]
+    # Indice 2: Testez avec une liste vide [] --> []
+    # Indice 3: Testez avec un seul élément [42] --> [42]
+    # Indice 4: Testez avec doublons [2, 1, 2, 3] --> [1, 2, 2, 3]
+    # Indice 5: Testez déjà triée [1, 2, 3] --> [1, 2, 3]
+    # Indice 6: Testez triée inversée [3, 2, 1] --> [1, 2, 3]
     #
     # Challenge : Vérifiez que la liste originale n'est PAS modifiée
     # (gardez une copie de la liste avant le tri et comparez après!)

@@ -9,6 +9,7 @@
 Testez la fonction `valider_email()` qui vérifie si une adresse email a un format basique valide.
 
 **Règle de validation simple :**
+
 - Doit contenir exactement un `@`
 - Doit avoir au moins un `.` après le `@`
 - Les parties avant et après `@` ne doivent pas être vides
@@ -21,12 +22,12 @@ Testez la fonction `valider_email()` qui vérifie si une adresse email a un form
 
 ## Critères de réussite
 
-- [ ] Test email valide : `"test@example.com"` → `True`
-- [ ] Test sans @ : `"invalide"` → `False`
-- [ ] Test sans point dans domaine : `"sans@domaine"` → `False`
-- [ ] Test chaîne vide : `""` → `False`
-- [ ] Test avec partie locale vide : `"@example.com"` → `False`
-- [ ] Test avec domaine vide : `"test@"` → `False`
+- [ ] Test email valide : `"test@example.com"` --> `True`
+- [ ] Test sans @ : `"invalide"` --> `False`
+- [ ] Test sans point dans domaine : `"sans@domaine"` --> `False`
+- [ ] Test chaîne vide : `""` --> `False`
+- [ ] Test avec partie locale vide : `"@example.com"` --> `False`
+- [ ] Test avec domaine vide : `"test@"` --> `False`
 - [ ] Tous les tests passent ✅
 
 ## Points d'attention

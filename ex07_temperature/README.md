@@ -9,8 +9,9 @@
 Testez les fonctions de conversion entre Celsius et Fahrenheit.
 
 **Formules :**
-- Celsius → Fahrenheit : `F = C × 9/5 + 32`
-- Fahrenheit → Celsius : `C = (F - 32) × 5/9`
+
+- Celsius --> Fahrenheit : `F = C × 9/5 + 32`
+- Fahrenheit --> Celsius : `C = (F - 32) × 5/9`
 
 ## Instructions
 
@@ -21,15 +22,17 @@ Testez les fonctions de conversion entre Celsius et Fahrenheit.
 ## Critères de réussite
 
 **Pour celsius_vers_fahrenheit :**
-- [ ] Test point de congélation : `0°C` → `32°F`
-- [ ] Test point d'ébullition : `100°C` → `212°F`
-- [ ] Test température négative : `-40°C` → `-40°F` (même valeur!)
-- [ ] Test température arbitraire : `37°C` → `98.6°F` (température corporelle)
+
+- [ ] Test point de congélation : `0°C` --> `32°F`
+- [ ] Test point d'ébullition : `100°C` --> `212°F`
+- [ ] Test température négative : `-40°C` --> `-40°F` (même valeur!)
+- [ ] Test température arbitraire : `37°C` --> `98.6°F` (température corporelle)
 
 **Pour fahrenheit_vers_celsius :**
-- [ ] Test point de congélation : `32°F` → `0°C`
-- [ ] Test point d'ébullition : `212°F` → `100°C`
-- [ ] Test température négative : `-40°F` → `-40°C`
+
+- [ ] Test point de congélation : `32°F` --> `0°C`
+- [ ] Test point d'ébullition : `212°F` --> `100°C`
+- [ ] Test température négative : `-40°F` --> `-40°C`
 
 - [ ] Tous les tests passent ✅
 

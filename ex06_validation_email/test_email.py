@@ -21,12 +21,12 @@ class TestEmail(unittest.TestCase):
     # - Act : appeler la fonction à tester
     # - Assert : vérifier le résultat
     #
-    # Indice 1: Testez avec un email valide "test@example.com" → True
-    # Indice 2: Testez sans @ : "invalide" → False
-    # Indice 3: Testez sans point dans le domaine : "sans@domaine" → False
-    # Indice 4: Testez chaîne vide "" → False
-    # Indice 5: Testez partie locale vide "@example.com" → False
-    # Indice 6: Testez domaine vide "test@" → False
+    # Indice 1: Testez avec un email valide "test@example.com" --> True
+    # Indice 2: Testez sans @ : "invalide" --> False
+    # Indice 3: Testez sans point dans le domaine : "sans@domaine" --> False
+    # Indice 4: Testez chaîne vide "" --> False
+    # Indice 5: Testez partie locale vide "@example.com" --> False
+    # Indice 6: Testez domaine vide "test@" --> False
 
     pass  # Supprimez ce 'pass' quand vous écrivez vos tests
 

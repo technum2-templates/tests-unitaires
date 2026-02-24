@@ -18,13 +18,13 @@ Testez la fonction `recherche_binaire()` qui recherche un élément dans une lis
 
 ## Critères de réussite
 
-- [ ] Test élément trouvé au début : `[1, 2, 3, 4, 5]`, chercher `1` → index `0`
-- [ ] Test élément trouvé au milieu : `[1, 2, 3, 4, 5]`, chercher `3` → index `2`
-- [ ] Test élément trouvé à la fin : `[1, 2, 3, 4, 5]`, chercher `5` → index `4`
-- [ ] Test élément non trouvé : `[1, 2, 3, 4, 5]`, chercher `6` → `None`
-- [ ] Test liste vide : `[]`, chercher `1` → `None`
-- [ ] Test un seul élément (trouvé) : `[42]`, chercher `42` → index `0`
-- [ ] Test un seul élément (non trouvé) : `[42]`, chercher `1` → `None`
+- [ ] Test élément trouvé au début : `[1, 2, 3, 4, 5]`, chercher `1` --> index `0`
+- [ ] Test élément trouvé au milieu : `[1, 2, 3, 4, 5]`, chercher `3` --> index `2`
+- [ ] Test élément trouvé à la fin : `[1, 2, 3, 4, 5]`, chercher `5` --> index `4`
+- [ ] Test élément non trouvé : `[1, 2, 3, 4, 5]`, chercher `6` --> `None`
+- [ ] Test liste vide : `[]`, chercher `1` --> `None`
+- [ ] Test un seul élément (trouvé) : `[42]`, chercher `42` --> index `0`
+- [ ] Test un seul élément (non trouvé) : `[42]`, chercher `1` --> `None`
 - [ ] Tous les tests passent ✅
 
 ## Points d'attention
@@ -52,6 +52,7 @@ def test_recherche_element_trouve_milieu(self):
 ## Rappel : Recherche binaire
 
 La recherche binaire divise la liste en deux à chaque étape :
-- Si l'élément du milieu = élément cherché → trouvé !
-- Si élément du milieu < élément cherché → chercher dans la moitié droite
-- Si élément du milieu > élément cherché → chercher dans la moitié gauche
+
+- Si l'élément du milieu = élément cherché --> trouvé !
+- Si élément du milieu < élément cherché --> chercher dans la moitié droite
+- Si élément du milieu > élément cherché --> chercher dans la moitié gauche

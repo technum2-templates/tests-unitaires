@@ -16,10 +16,10 @@ Testez la fonction `somme_liste()` qui calcule la somme des éléments d'une lis
 
 ## Critères de réussite
 
-- [ ] Test avec liste normale `[1, 2, 3]` → attend `6`
-- [ ] Test avec liste vide `[]` → attend `0`
-- [ ] Test avec un seul élément `[42]` → attend `42`
-- [ ] Test avec nombres négatifs `[-1, -2, -3]` → attend `-6`
+- [ ] Test avec liste normale `[1, 2, 3]` --> attend `6`
+- [ ] Test avec liste vide `[]` --> attend `0`
+- [ ] Test avec un seul élément `[42]` --> attend `42`
+- [ ] Test avec nombres négatifs `[-1, -2, -3]` --> attend `-6`
 - [ ] Tous les tests passent ✅
 
 ## Points d'attention

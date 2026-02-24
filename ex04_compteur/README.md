@@ -18,11 +18,11 @@ Testez la fonction `compter_caractere(texte, caractere)` qui compte le nombre d'
 
 ## Critères de réussite
 
-- [ ] Test cas nominal : `compter_caractere("hello", "l")` → `2`
-- [ ] Test caractère absent : `compter_caractere("hello", "z")` → `0`
-- [ ] Test chaîne vide : `compter_caractere("", "a")` → `0`
-- [ ] Test sensibilité casse : `compter_caractere("Hello", "h")` → `0` (car `h` ≠ `H`)
-- [ ] Test sensibilité casse : `compter_caractere("Hello", "H")` → `1`
+- [ ] Test cas nominal : `compter_caractere("hello", "l")` --> `2`
+- [ ] Test caractère absent : `compter_caractere("hello", "z")` --> `0`
+- [ ] Test chaîne vide : `compter_caractere("", "a")` --> `0`
+- [ ] Test sensibilité casse : `compter_caractere("Hello", "h")` --> `0` (car `h` ≠ `H`)
+- [ ] Test sensibilité casse : `compter_caractere("Hello", "H")` --> `1`
 - [ ] Tous les tests passent ✅
 
 ## Points d'attention

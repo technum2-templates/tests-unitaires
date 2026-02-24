@@ -27,26 +27,28 @@ La **Notation Polonaise Inverse** place les opérateurs **après** les opérande
 ## Critères de réussite
 
 **Cas nominaux :**
-- [ ] Addition : `"3 4 +"` → `7.0`
-- [ ] Soustraction : `"10 3 -"` → `7.0`
-- [ ] Multiplication : `"5 2 *"` → `10.0`
-- [ ] Division : `"10 2 /"` → `5.0`
-- [ ] Expression complexe : `"2 3 * 4 +"` → `10.0`
+
+- [ ] Addition : `"3 4 +"` --> `7.0`
+- [ ] Soustraction : `"10 3 -"` --> `7.0`
+- [ ] Multiplication : `"5 2 *"` --> `10.0`
+- [ ] Division : `"10 2 /"` --> `5.0`
+- [ ] Expression complexe : `"2 3 * 4 +"` --> `10.0`
 
 **Cas d'erreur :**
-- [ ] Expression vide : `""` → `ValueError`
-- [ ] Division par zéro : `"3 0 /"` → `ZeroDivisionError`
-- [ ] Pas assez d'opérandes : `"3 +"` → `ValueError`
-- [ ] Trop d'opérandes : `"3 4 5 +"` → `ValueError`
-- [ ] Token invalide : `"3 a +"` → `ValueError`
+
+- [ ] Expression vide : `""` --> `ValueError`
+- [ ] Division par zéro : `"3 0 /"` --> `ZeroDivisionError`
+- [ ] Pas assez d'opérandes : `"3 +"` --> `ValueError`
+- [ ] Trop d'opérandes : `"3 4 5 +"` --> `ValueError`
+- [ ] Token invalide : `"3 a +"` --> `ValueError`
 
 - [ ] Tous les tests passent ✅
 
 ## Points d'attention
 
 - La fonction lève **deux types d'exceptions** :
-  - `ValueError` : format d'expression invalide
-  - `ZeroDivisionError` : division par zéro
+    - `ValueError` : format d'expression invalide
+    - `ZeroDivisionError` : division par zéro
 - Utilisez `with self.assertRaises(ExceptionType):` pour tester les exceptions
 - Les nombres et opérateurs sont séparés par des espaces
 
@@ -82,6 +84,6 @@ def test_rpn_division_par_zero(self):
 
 1. Utilise une **pile** (stack)
 2. Pour chaque token :
-   - Si c'est un nombre → empiler
-   - Si c'est un opérateur → dépiler 2 nombres, calculer, empiler le résultat
+    - Si c'est un nombre --> empiler
+    - Si c'est un opérateur --> dépiler 2 nombres, calculer, empiler le résultat
 3. Résultat final = dernier élément de la pile

@@ -10,9 +10,9 @@ Testez la fonction `valider_age(age)` qui vérifie si un âge est valide pour un
 
 ## Règles de validation
 
-- **Âge valide** : entre 18 et 120 inclus → retourne `True`
-- **Âge invalide** : < 18 ou > 120 → retourne `False`
-- **Type invalide** : valeur non entière → lève `TypeError`
+- **Âge valide** : entre 18 et 120 inclus --> retourne `True`
+- **Âge invalide** : < 18 ou > 120 --> retourne `False`
+- **Type invalide** : valeur non entière --> lève `TypeError`
 
 ## Instructions
 
@@ -22,11 +22,11 @@ Testez la fonction `valider_age(age)` qui vérifie si un âge est valide pour un
 
 ## Critères de réussite
 
-- [ ] Test valeur valide au milieu : `25` → `True`
-- [ ] Test limites basses : `17` → `False`, `18` → `True`
-- [ ] Test limites hautes : `120` → `True`, `121` → `False`
-- [ ] Test valeurs extrêmes : `0` → `False`, `-5` → `False`, `200` → `False`
-- [ ] Test type incorrect : `"18"`, `18.5` → `TypeError`
+- [ ] Test valeur valide au milieu : `25` --> `True`
+- [ ] Test limites basses : `17` --> `False`, `18` --> `True`
+- [ ] Test limites hautes : `120` --> `True`, `121` --> `False`
+- [ ] Test valeurs extrêmes : `0` --> `False`, `-5` --> `False`, `200` --> `False`
+- [ ] Test type incorrect : `"18"`, `18.5` --> `TypeError`
 - [ ] Tous les tests passent ✅
 
 ## Exemple de test

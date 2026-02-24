@@ -21,10 +21,10 @@ class TestSomme(unittest.TestCase):
     # - Act : appeler la fonction à tester
     # - Assert : vérifier le résultat avec assertEqual
     #
-    # Indice 1: Testez avec une liste normale [1, 2, 3] → attend 6
-    # Indice 2: Testez avec une liste vide [] → attend 0
-    # Indice 3: Testez avec un seul élément [42] → attend 42
-    # Indice 4: Testez avec des nombres négatifs [-1, -2, -3] → attend -6
+    # Indice 1: Testez avec une liste normale [1, 2, 3] --> attend 6
+    # Indice 2: Testez avec une liste vide [] --> attend 0
+    # Indice 3: Testez avec un seul élément [42] --> attend 42
+    # Indice 4: Testez avec des nombres négatifs [-1, -2, -3] --> attend -6
 
     pass  # Supprimez ce 'pass' quand vous écrivez vos tests
 

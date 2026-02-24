@@ -18,12 +18,12 @@ Testez la fonction `trier_liste()` qui trie une liste de nombres par ordre crois
 
 ## Critères de réussite
 
-- [ ] Test cas nominal : `[3, 1, 2]` → `[1, 2, 3]`
-- [ ] Test liste vide : `[]` → `[]`
-- [ ] Test un seul élément : `[42]` → `[42]`
-- [ ] Test avec doublons : `[2, 1, 2, 3]` → `[1, 2, 2, 3]`
-- [ ] Test déjà triée : `[1, 2, 3]` → `[1, 2, 3]`
-- [ ] Test triée inversée : `[3, 2, 1]` → `[1, 2, 3]`
+- [ ] Test cas nominal : `[3, 1, 2]` --> `[1, 2, 3]`
+- [ ] Test liste vide : `[]` --> `[]`
+- [ ] Test un seul élément : `[42]` --> `[42]`
+- [ ] Test avec doublons : `[2, 1, 2, 3]` --> `[1, 2, 2, 3]`
+- [ ] Test déjà triée : `[1, 2, 3]` --> `[1, 2, 3]`
+- [ ] Test triée inversée : `[3, 2, 1]` --> `[1, 2, 3]`
 - [ ] Test liste originale non modifiée
 - [ ] Tous les tests passent ✅
 

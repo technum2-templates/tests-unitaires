@@ -22,18 +22,18 @@ class TestRPN(unittest.TestCase):
     # - Assert : vérifier le résultat
     #
     # Cas nominaux :
-    # Indice 1: Addition "3 4 +" → 7.0
-    # Indice 2: Soustraction "10 3 -" → 7.0
-    # Indice 3: Multiplication "5 2 *" → 10.0
-    # Indice 4: Division "10 2 /" → 5.0
-    # Indice 5: Expression complexe "2 3 * 4 +" → 10.0
+    # Indice 1: Addition "3 4 +" --> 7.0
+    # Indice 2: Soustraction "10 3 -" --> 7.0
+    # Indice 3: Multiplication "5 2 *" --> 10.0
+    # Indice 4: Division "10 2 /" --> 5.0
+    # Indice 5: Expression complexe "2 3 * 4 +" --> 10.0
     #
     # Cas d'erreur (utilisez with self.assertRaises(...)) :
-    # Indice 6: Expression vide "" → ValueError
-    # Indice 7: Division par zéro "3 0 /" → ZeroDivisionError
-    # Indice 8: Pas assez d'opérandes "3 +" → ValueError
-    # Indice 9: Trop d'opérandes "3 4 5 +" → ValueError
-    # Indice 10: Token invalide "3 a +" → ValueError
+    # Indice 6: Expression vide "" --> ValueError
+    # Indice 7: Division par zéro "3 0 /" --> ZeroDivisionError
+    # Indice 8: Pas assez d'opérandes "3 +" --> ValueError
+    # Indice 9: Trop d'opérandes "3 4 5 +" --> ValueError
+    # Indice 10: Token invalide "3 a +" --> ValueError
     #
     # Exemple pour tester une exception :
     # def test_division_par_zero(self):
